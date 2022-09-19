@@ -9,6 +9,7 @@ Added the following plugins:
 - gruvbox-material
 - vim-test
 - which-key
+- vim-tmux-runner
 
 ## Install Neovim 0.7
 
@@ -161,6 +162,7 @@ You can install new plugins here: [plugins](https://github.com/LunarVim/nvim-bas
   [tmux-nvim](https://github.com/aserowy/tmux.nvim)
   [vim-test](https://github.com/vim-test/vim-test")
   [which-key](https://github.com/folke/which-key.nvim)
+  [vim-tmux-runner](https://github.com/christoomey/vim-tmux-runner)
 ---
 
 > The computing scientist's main challenge is not to get confused by the complexities of his own making. 
