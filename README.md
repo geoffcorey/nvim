@@ -11,6 +11,15 @@ Added the following plugins:
 - which-key
 - vim-tmux-runner
 
+Setup debugging with Node.js and Mocha:
+
+- Open test file and navigate to test to debug set breakpoint \<space\>db 
+- Launch specific test using \<space\>tt 
+- Get DAP to connect using \<space\>dc 
+- Select attach process
+- Open DAP UI using \<space\>du 
+- Forward to breakpoint \<space\>dc 
+
 ## Install Neovim 0.7
 
 You can install Neovim with your package manager e.g. brew, apt, pacman etc.. but remember that when you update your packages Neovim may be upgraded to a newer version.
@@ -158,11 +167,12 @@ You can install new plugins here: [plugins](https://github.com/LunarVim/nvim-bas
 - [nvim-dap](https://github.com/mfussenegger/nvim-dap)
 - [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui)
 - [DAPInstall.nvim](https://github.com/ravenxrz/DAPInstall.nvim)
-  [gruvbox-material](https://github.com/sainnhe/gruvbox-material)
-  [tmux-nvim](https://github.com/aserowy/tmux.nvim)
-  [vim-test](https://github.com/vim-test/vim-test")
-  [which-key](https://github.com/folke/which-key.nvim)
-  [vim-tmux-runner](https://github.com/christoomey/vim-tmux-runner)
+- [gruvbox-material](https://github.com/sainnhe/gruvbox-material)
+- [tmux-nvim](https://github.com/aserowy/tmux.nvim)
+- [vim-test](https://github.com/vim-test/vim-test")
+- [which-key](https://github.com/folke/which-key.nvim)
+- [vim-tmux-runner](https://github.com/christoomey/vim-tmux-runner)
+
 ---
 
 > The computing scientist's main challenge is not to get confused by the complexities of his own making. 

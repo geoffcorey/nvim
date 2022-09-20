@@ -13,8 +13,19 @@ if not dap_install_status_ok then
   return
 end
 
+local dap, dapui = require("dap"), require("dapui")
+dapui.setup()
+--dapui.float_element()
+dap.listeners.after.event_initialized["dapui_config"] = function()
+  dapui.open()
+end
+dap.listeners.before.event_terminated["dapui_config"] = function()
+  dapui.close()
+end
+dap.listeners.before.event_exited["dapui_config"] = function()
+  dapui.close()
+end
 dap_install.setup {}
-
 dap_install.config("python", {})
 -- add other configs here
 local dap = require('dap')

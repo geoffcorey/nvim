@@ -6,3 +6,5 @@ vim.g.tslime_always_current_window = 1
 vim.api.nvim_set_var("test#strategy", "vtr")
 vim.api.nvim_set_var("test#preserve_screen", 1)
 vim.api.nvim_set_var("test#filename_modifier", ":~")
+-- vim.api.nvim_set_var("test#runner_commands", ["mocha"])
+vim.api.nvim_set_var("test#javascript#mocha#options", "--inspect-brk")

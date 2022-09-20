@@ -41,4 +41,3 @@ vim.opt.iskeyword:append("-")
 vim.g.loaded_perl_provider = 0
 vim.g.loaded_ruby_provider = 0
 vim.g.loaded_beancount_provider = 0
--- vim.g.test.javascript.runner = "mocha"
