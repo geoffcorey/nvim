@@ -80,9 +80,6 @@ return packer.startup(function(use)
   use { "jose-elias-alvarez/null-ls.nvim" } -- for formatters and linters
   use { "RRethy/vim-illuminate" }
 
-  -- Telescope
-  use { "nvim-telescope/telescope.nvim" }
-
   -- Treesitter
   use { "nvim-treesitter/nvim-treesitter" }
 
@@ -118,6 +115,15 @@ return packer.startup(function(use)
   use { "mfussenegger/nvim-dap" }
   use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
   use { "ravenxrz/DAPInstall.nvim" }
+
+  -- Telescope
+  use { "nvim-telescope/telescope.nvim" }
+  use { "nvim-telescope/telescope-dap.nvim",
+    config = function ()
+      require('telescope').load_extension('dap')
+      require('telescope').setup()
+    end
+  }
 
   -- VIM-test
   use { "vim-test/vim-test"}

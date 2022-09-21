@@ -10,6 +10,7 @@ Added the following plugins:
 - vim-test
 - which-key
 - vim-tmux-runner
+- telescope-dap
 
 Setup debugging with Node.js and Mocha:
 
