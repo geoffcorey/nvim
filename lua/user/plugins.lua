@@ -81,7 +81,7 @@ return packer.startup(function(use)
   use { "RRethy/vim-illuminate" }
 
   -- Treesitter
-  use { "nvim-treesitter/nvim-treesitter",  }
+  use { "nvim-treesitter/nvim-treesitter" }
 
   -- TMUX
   use({
