@@ -6,7 +6,7 @@ Because I forked https://github.com/LunarVim/nvim-basic-ide and removed the stab
 
 Added the following plugins:
 
-- gruvbox-material
+- gruvbox
 - vim-test
 - which-key
 - vim-tmux-runner
@@ -136,7 +136,6 @@ You can install new plugins here: [plugins](https://github.com/LunarVim/nvim-bas
 - [packer](https://github.com/wbthomason/packer.nvim)
 - [plenary](https://github.com/nvim-lua/plenary.nvim)
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
-- [Comment.nvim](https://github.com/numToStr/Comment.nvim)
 - [nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring)
 - [nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons)
 - [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
@@ -168,7 +167,7 @@ You can install new plugins here: [plugins](https://github.com/LunarVim/nvim-bas
 - [nvim-dap](https://github.com/mfussenegger/nvim-dap)
 - [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui)
 - [DAPInstall.nvim](https://github.com/ravenxrz/DAPInstall.nvim)
-- [gruvbox-material](https://github.com/sainnhe/gruvbox-material)
+- [gruvbox](https://github.com/ellisonleao/gruvbox.nvim)
 - [tmux-nvim](https://github.com/aserowy/tmux.nvim)
 - [vim-test](https://github.com/vim-test/vim-test")
 - [which-key](https://github.com/folke/which-key.nvim)
