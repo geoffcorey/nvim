@@ -120,13 +120,13 @@ return packer.startup(function(use)
   use { "nvim-telescope/telescope.nvim" }
   use { "nvim-telescope/telescope-dap.nvim",
     config = function ()
-      require('telescope').load_extension('dap')
-      require('telescope').setup()
+      require("telescope").load_extension("dap")
+      require("telescope").setup()
     end
   }
 
   -- VIM-test
-  use { "vim-test/vim-test"}
+  use { "vim-test/vim-test" }
 
   -- which-key
   use {

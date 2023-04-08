@@ -1,4 +1,4 @@
-local opts = { silent = true }
+-- local opts = { silent = true }
 
 vim.g.tslime_always_current_session = 1
 vim.g.tslime_always_current_window = 1

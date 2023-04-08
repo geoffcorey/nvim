@@ -39,7 +39,7 @@ keymap("n", "<leader>h", "<cmd>nohlsearch<CR>", opts)
 keymap("n", "<S-q>", "<cmd>Bdelete!<CR>", opts)
 
 -- Better paste
-keymap("v", "p", '"_dP', opts)
+keymap("v", "p", "_dP", opts)
 
 -- Insert --
 -- Press jk fast to enter
@@ -62,7 +62,7 @@ keymap("n", "<leader>fp", ":Telescope projects<CR>", opts)
 keymap("n", "<leader>fb", ":Telescope buffers<CR>", opts)
 
 -- Git
-keymap("n", "<leader>gg", "<cmd>lua _LAZYGIT_TOGGLE()<CR>", opts)
+keymap("n", "<leader>gg", "<cmd>lua LAZYGIT_TOGGLE()<CR>", opts)
 
 -- Comment
 -- keymap("n", "<leader>C", "<cmd>lua require('Comment.api').toggle_current_linewise()<CR>", opts)

@@ -6,7 +6,7 @@ local Path = require("plenary.path")
 --   3. use conda env matching project name
 --   4. fallback to "python"
 
-local poetry = nil
+-- local poetry = nil
 if vim.fn.exepath("poetry") ~= "" then
   local bin = Path:new(vim.fn.resolve(vim.fn.exepath("poetry")))
 
@@ -15,13 +15,13 @@ if vim.fn.exepath("poetry") ~= "" then
   poetry = { bin = bin, venv = venv }
 end
 
-local conda = nil
+-- local conda = nil
 if os.getenv("CONDA_EXE") then
   local venv = Path:new(os.getenv("CONDA_EXE")):parent():parent():joinpath("envs")
   conda = { bin = os.getenv("CONDA_EXE"), venv = venv }
 end
 
-local opts = { poetry = poetry, conda = conda }
+-- local opts = { poetry = poetry, conda = conda }
 
 
 -- TODO: finish it from getting logic from python-utils
